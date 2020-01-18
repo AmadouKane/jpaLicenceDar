@@ -22,6 +22,24 @@ public class Planete {
 		this.id = id;
 		this.nom = nom;
 		this.rayon = rayon;
+	}
+	public Long getId() {
+		return id;
+	}
+	public void setId(Long id) {
+		this.id = id;
+	}
+	public String getNom() {
+		return nom;
+	}
+	public void setNom(String nom) {
+		this.nom = nom;
+	}
+	public Double getRayon() {
+		return rayon;
+	}
+	public void setRayon(Double rayon) {
+		this.rayon = rayon;
 	}  
 	
 	
